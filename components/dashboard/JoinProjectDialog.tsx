@@ -26,7 +26,8 @@ const JoinProjectDialog = () => {
     const docSnap = await getDoc(docRef);
     if (docSnap.exists() && email) {
       await updateDoc(docRef, {
-        members: arrayUnion(email),
+        members: arrayUnion(session?.user?.name),
+        membersEmail: arrayUnion(email)
       }).then(() => {
         alert("Member added successfully");
       });
