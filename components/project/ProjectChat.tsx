@@ -138,9 +138,6 @@ const ProjectChat = ({ id }: any) => {
           </div>
         </div>
       </div>
-      <div className="md:w-1/4 w-full">
-        <div className="p-4 bg-app-grey-light">Members List Vennuma ?</div>
-      </div>
     </div>
   );
 };

@@ -45,7 +45,7 @@ const JoinProjectDialog = () => {
         </DialogTrigger>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>Add Authors</DialogTitle>
+            <DialogTitle>Add Members</DialogTitle>
             <DialogDescription>
               <form
                 onSubmit={handleAddMembers}

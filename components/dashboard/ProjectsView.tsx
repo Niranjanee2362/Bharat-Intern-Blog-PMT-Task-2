@@ -28,6 +28,9 @@ function ProjectsView
     return () => unsub();
     }
   }, [email]);
+  
+
+
 
   console.log(projects)
   

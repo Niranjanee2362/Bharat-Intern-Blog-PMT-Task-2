@@ -81,7 +81,7 @@ const CreateNewProjectDialog = () => {
         { merge: true }
       );
       setOpen(false);
-      alert("Paper Added");
+      alert("Project Added");
     }
   };
   return (
